@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "First"
+date:   2019-04-28 23:03:59
+author: YoungChan Kim
+categories: Dummy
+---
+
+
+#This Blog.
+
+##Is that I have been started.
+
+### For the first time.
+
+1. I hop you understand my Eng.
+2. Ok?
+3. Actually this is my second time to commit my post.
