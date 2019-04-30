@@ -40,8 +40,8 @@ jekyll-archives:
     category: '/category/:name/'
     tag: '/tag/:name/'
 
-# Disqus comments
-# disqus_shortname: bencentra
+Disqus comments
+disqus_shortname: disqus_136bCy3e7f
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
