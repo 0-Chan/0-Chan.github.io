@@ -100,6 +100,7 @@ pre code.hljs {
 *	Header
 */
 .navigation {
+	background:#FFEBEE;
 	box-shadow: 0 2px $highlight-color;
 	padding: 0 1em;
 	margin: 0;
@@ -235,7 +236,7 @@ pre code.hljs {
 	.site-header-container {
 		color: $white;
 		text-shadow: 0 2px 1px rgba(0,0,0,0.33);
-		background-color: $highlight-color;
+		background-color: #C0C8FC;
 		.site-header{
 			.title {
 				font-size: modular-scale(6);
