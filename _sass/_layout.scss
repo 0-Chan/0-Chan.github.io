@@ -100,7 +100,7 @@ pre code.hljs {
 *	Header
 */
 .navigation {
-	background:#FED8DD;
+	background:#fdbb9b;
 	box-shadow: 0 2px $highlight-color;
 	padding: 0 1em;
 	margin: 0;
@@ -179,7 +179,7 @@ pre code.hljs {
   }
   li.nav-link {
   	a {
-  		color:$black;
+  		color:$white;
 	    display: inline-block;
 	    @include media ($tablet) {
 	      padding-right: 1.5em;
@@ -355,7 +355,7 @@ pre code.hljs {
 .site-footer {
 	$link-color: $white;
 	padding: 1em 1em 2em 1em;
-	background-color: #FED8DD;
+	background-color:#fdbb9b;
 	color: $white;
 	a {
 	  color: $link-color;
