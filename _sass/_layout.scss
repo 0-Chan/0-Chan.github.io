@@ -100,7 +100,7 @@ pre code.hljs {
 *	Header
 */
 .navigation {
-	background:#FFEBEE;
+	background:#FED8DD;
 	box-shadow: 0 2px $highlight-color;
 	padding: 0 1em;
 	margin: 0;
@@ -122,6 +122,7 @@ pre code.hljs {
   .navigation-wrapper {
   	@include outer-container;
     @include clearfix;
+    max-width: 90em;
     position: relative;
   }
   .logo {
@@ -178,6 +179,7 @@ pre code.hljs {
   }
   li.nav-link {
   	a {
+  		color:$black;
 	    display: inline-block;
 	    @include media ($tablet) {
 	      padding-right: 1.5em;
@@ -236,7 +238,7 @@ pre code.hljs {
 	.site-header-container {
 		color: $white;
 		text-shadow: 0 2px 1px rgba(0,0,0,0.33);
-		background-color: #C0C8FC;
+		background-color: $highlight-color;
 		.site-header{
 			.title {
 				font-size: modular-scale(6);
@@ -353,7 +355,7 @@ pre code.hljs {
 .site-footer {
 	$link-color: $white;
 	padding: 1em 1em 2em 1em;
-	background-color: $highlight-color;
+	background-color: #FED8DD;
 	color: $white;
 	a {
 	  color: $link-color;
