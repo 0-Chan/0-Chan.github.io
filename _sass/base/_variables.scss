@@ -26,10 +26,12 @@ $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
 $white: #fff;
+$black: #000;
 // Flat UI Colors. For more, see http://flatuicolors.com/
 $turquoise: #1abc9c;	// Turqoise
 $green: #27ae60;	  	// Nephritis
 $blue: #2980b9;				// Belize Hole
+$violet: #D1C4E9;			// Light violet
 $purple: #8e44ad;			// Wisteria
 $orange: #d35400;			// Pumpkin
 $red:	#c0392b;				// Pomegranate
@@ -38,9 +40,9 @@ $gray: #7f8c8d;				// Asbestos
 $bc-red: #bc0000;
 
 // Font Colors
-$base-background-color: #fff;
+$base-background-color: $black;
 $base-font-color: $dark-gray;
-$action-color: $blue;
+$action-color: $violet;
 $highlight-color: tint($action-color, 33%);
 
 // Border
