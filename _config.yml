@@ -9,12 +9,12 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: 왕게개발일지
-subtitle: "Chan's Development Journal"
+title: 왕게 개발 일지
+subtitle: "Chan's  Development  Journal"
 email: kyc4421194@gmail.com
-name: YoungChan Kim
+name: Young Chan Kim
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
+  개인 프로젝트 진행 과정을 남기는 블로그입니다.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -87,14 +87,14 @@ social:
 
   - name: GitHub
     icon: github
-    username: YoungChan Kim
+    username: Young Chan Kim
     url: https://github.com/0-Chan
     desc: Fork me on GitHub
     share: true
 
   - name: LinkedIn
     icon: linkedin
-    username: YoungChan Kim
+    username: Young Chan Kim
     url: https://www.linkedin.com/in/young-chan-kim-4328b3173/
     desc: Connect with me on LinkedIn
     share: true
@@ -143,7 +143,7 @@ social:
 
   - name: Steam
     icon: steam
-    username:
+    username: KingCrab
     url:
     desc: Friend me on Steam
     share: true
