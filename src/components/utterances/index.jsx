@@ -4,9 +4,9 @@ import * as Dom from '../../utils/dom'
 import { THEME } from '../../constants'
 
 const src = 'https://utteranc.es/client.js'
-const branch = 'master'
-const DARK_THEME = 'photon-dark'
-const LIGHT_THEME = 'github-light'
+const branch = 'main'
+const DARK_THEME = 'github-dark-orange'
+const LIGHT_THEME = 'boxy-light'
 
 export const Utterances = ({ repo }) => {
   const rootElm = React.createRef()
@@ -21,7 +21,7 @@ export const Utterances = ({ repo }) => {
       theme: isDarkTheme ? DARK_THEME : LIGHT_THEME,
       label: 'comment',
       async: true,
-      'issue-term': 'pathname',
+      'issue-term': 'title',
       crossorigin: 'anonymous',
     }
 
