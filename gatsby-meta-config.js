@@ -1,8 +1,8 @@
 module.exports = {
-  title: `영-Chan Daily Develop`,
+  title: `0-Chan's Daily Dev`,
   description: `Mostly TIL ...`,
   author: `[0-Chan]`,
-  introduction: `'Robot Frontend Developer'. I'm interested in Javascript with ROS.`,
+  introduction: `'Robotics Frontend Developer'. I'm interested in Javascript with ROS.`,
   siteUrl: `https://0-Chan.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
