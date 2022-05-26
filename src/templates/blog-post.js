@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+
 import { graphql } from 'gatsby'
 
 import * as Elements from '../components/elements'
@@ -11,6 +12,7 @@ import { SocialShare } from '../components/social-share'
 import { SponsorButton } from '../components/sponsor-button'
 import { Bio } from '../components/bio'
 import { PostNavigator } from '../components/post-navigator'
+import mermaid from "mermaid";
 import { Disqus } from '../components/disqus'
 import { Utterances } from '../components/utterances'
 import * as ScrollManager from '../utils/scroll'
@@ -22,7 +24,15 @@ export default ({ data, pageContext, location }) => {
   useEffect(() => {
     ScrollManager.init()
     return () => ScrollManager.destroy()
-  }, [])
+  }, []);
+
+  useEffect(() => {
+    mermaid.initialize({});
+  }, []);
+
+  useEffect(() => {
+    mermaid.contentLoaded();
+  });
 
   const post = data.markdownRemark
   const metaData = data.site.siteMetadata
